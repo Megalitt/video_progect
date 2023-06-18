@@ -1,0 +1,67 @@
+html {
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+}
+
+.element {
+  border: 0.1rem solid #edeef3;
+  background: rgba(71, 243, 86, 0.5);
+  color: rgb(219, 25, 25);
+  position: absolute;
+}
+.wrap {
+  width: 132.6rem; 
+  height: 74.6rem;
+  position: relative;
+}
+.video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 132.6rem;
+  height: 74.6rem;
+  overflow: hidden;
+}
+
+.list {
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 13rem;
+  height: 3rem;
+  z-index: 100;
+  position: absolute;
+  left: 119.6rem;
+  top: 0;
+  color: #000;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  background: rgb(151, 245, 143);
+}
+.list option {
+  padding: 0;
+  margin: 0;
+  width: 13rem;
+  height: 2.5rem;
+  background: rgb(151, 245, 143);
+}
+.list:active {
+  border: none;
+  text-decoration: none;
+}
+
+
+
